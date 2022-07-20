@@ -5,6 +5,10 @@ const app = express();
 // defining the PORT variable
 const PORT = 8000;
 
+
+let distDir = __dirname + "/API-PROJECT/";
+ app.use(express.static(distDir));
+
 // defining the quotes object
 const quotes = {
         'inspirational': {
