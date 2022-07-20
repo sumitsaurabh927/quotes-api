@@ -5,6 +5,9 @@ const app = express();
 // defining the PORT variable
 const PORT = 8000;
 
+// fixing cors
+cont cors = require('cors');
+app.use(cors());
 
 // defining the quotes object
 const quotes = {
