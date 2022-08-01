@@ -1,4 +1,4 @@
-// requiring and using the variable 'name' to call it
+// requiring and using the variable 'app' to call it
 const express = require('express');
 const app = express();
 
